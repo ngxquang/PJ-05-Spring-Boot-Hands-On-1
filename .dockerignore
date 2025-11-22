@@ -1,0 +1,37 @@
+# Build outputs
+build/
+.gradle/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# CI/CD
+.github/
+Jenkinsfile*
+
+# Documentation  
+*.md
+!README.md
+
+# Tests (không cần trong image)
+**/test/
+**/functionalTest/
+**/integrationTest/
+**/smokeTest/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db

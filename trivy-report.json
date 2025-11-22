@@ -1,0 +1,430 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-01T10:06:39.3316886+07:00",
+  "ArtifactName": "app:contest",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "OS": {
+      "Family": "debian",
+      "Name": "13.1"
+    },
+    "ImageID": "sha256:b18355461b7f7de21df86c818a6447603be6eb609f0005cc7b35a8bca870701e",
+    "DiffIDs": [
+      "sha256:cb95e3dcecd574e60c6aa1f2f7e26b9e2f9fc786a59783f86f04c2c98394a14d",
+      "sha256:621c35e751a51a9a9dc3e80aa0b7fe8be2a93402ea6ccd307d30852cd7776cda",
+      "sha256:191cb2c9f7f9e2f9167285e3087a059d56eeb5d7e98b49c93f3bd8fc5db1fc50",
+      "sha256:275a30dd8ce958b21daa9ad962c6fbc09f98306ee2f486b65c9075dc257b1412",
+      "sha256:4d049f83d9cf21d1f5cc0e11deaf36df02790d0e60c1a3829538fb4b61685368",
+      "sha256:af5aa97ebe6ce1604747ec1e21af7136ded391bcabe4acef882e718a87c86bcc",
+      "sha256:6f1cdceb6a3146f0ccb986521156bef8a422cdbb0863396f7f751f575ba308f4",
+      "sha256:bbb6cacb8c82e4da4e8143e03351e939eab5e21ce0ef333c42e637af86c5217b",
+      "sha256:2a92d6ac9e4fcc274d5168b217ca4458a9fec6f094ead68d99c77073f08caac1",
+      "sha256:1a73b54f556b477f0a8b939d13c504a3b4f4db71f7a09c63afbc10acb3de5849",
+      "sha256:1189545faf8d95156d42009bf2a738ba17c032ef7ae46704b69ceae564d08f4f",
+      "sha256:7cb7cc2bb262dccb2d0d074a9db047d3a1d39f7ea26d43dcb8541308761a66cd",
+      "sha256:28c0ac2bbd107e4451553fd4834cfd2f10115ce2204c8ae35b2c005e97921c9d",
+      "sha256:e4ba966d7f0527dfe0fcb559e4e18d4da42c4e6beae924719255e0dedb554ed0",
+      "sha256:ed866e58bebf5b90b1db471f4eff229d62dd0682a8b3abb727776c425e93f0b6",
+      "sha256:c52f8682a9775fcdba3d65e96488179866f11a3ec488c71098e1692c940c0846",
+      "sha256:809b4ebb74e64bb61759245f1880debc77dfa16f58f62e2dea0bda2fb4bf5585",
+      "sha256:0cd351bd16de499bf614cf9e35cd1b64e61272119b38dbc95e5eae87163c1f7e",
+      "sha256:a2195e8a560e78570f0ab99b60ee87df454da67fd8d44b49769d007b2a294d92",
+      "sha256:49bdf8e65c465162a9c999342a8e7f6e5ec4a1bfd10d3962474f3df3d7bdd763",
+      "sha256:d729025149d33e1372a0056f6a791f963d4508abe5fa430109194e31052f291f",
+      "sha256:38253f8df53ddff4e80c63ab44f5f224500b27ff2094bef5a22b191f364b9565",
+      "sha256:05d736472d09f08a3b66814899514fdac48489e2f77f07de6f0b88461f8815f4",
+      "sha256:6db791322bfcbc72dc54aa46d012ef46a2314819ec9cc28904e9091b4b94e63e",
+      "sha256:6e18ad80f3d64a8cbbcd1ff2e8a0d5ce7282cf664e816b86183a59d30a618e8a",
+      "sha256:c16b2ec4b1493bad1b1de23d659c899e60abb166bda756d02792f0a03ba54a43",
+      "sha256:3516ab0ce3925bbc217faf3aa71cc17c189a01c1d8a89894f200a83a79d815e0",
+      "sha256:7db505d90756626f425c6c5468eca565c82f589b144ecaa4f411ad9bbf79e614",
+      "sha256:94aa570c4d189052bca501ffb393cd03a20c7bf8d3e1fa3915cc77fcca1715a8",
+      "sha256:953871f68b73a0c29f9268de527a33d56fb21e904f9b3b9a52281ead677a015a",
+      "sha256:2813b375aacaaee16508130f8c37794ede62520bbb0bb44c95a0de5d13f29ded",
+      "sha256:b5383cbbabba5630c2eecc556d38fcbc8cc48d60161f85be16df341c097421f3",
+      "sha256:35630b82cf196bc379c43d09081ef4146a63ecc9788c4a5d800d80efc37fa197",
+      "sha256:1623a04db06f296def32c27e8f12f7319a2e47872da51a8a0a4bfccc729de2a2",
+      "sha256:e49cde37f438587851412974dc90c90329f86e856ec486e4e53c1b1e4e6ad0ea",
+      "sha256:8587adb50fba4b7f8abc60e20ece5e8eb64e22baa3b9a0a69b280f87e474fa31",
+      "sha256:263f2a10095daeb985c1de8ecd025a80a2bbf91fbb0dd6c0ddaed065c1dcb95e",
+      "sha256:bb57a1af34f42c79addf8237b3fb87ddcf84a83426919d94b5a325a60d280ac0"
+    ],
+    "RepoTags": [
+      "app:contest"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-11-01T02:33:27.134409478Z",
+      "history": [
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "2025-11-01T02:28:38Z",
+          "created_by": "LABEL org.opencontainers.image.title=Spring Boot Template org.opencontainers.image.description=HMCTS Spring Boot Template Application - Contest Optimized org.opencontainers.image.vendor=HMCTS org.opencontainers.image.version=0.0.1 org.opencontainers.image.created=2025-11-01T00:00:00Z org.opencontainers.image.source=https://github.com/hmcts/spring-boot-template org.opencontainers.image.licenses=MIT org.opencontainers.image.authors=Contest Participant org.opencontainers.image.base.name=gcr.io/distroless/java21-debian12:nonroot",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-01T02:28:38Z",
+          "created_by": "WORKDIR /opt/app",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-01T02:28:38Z",
+          "created_by": "COPY --chown=nonroot:nonroot lib/applicationinsights.json ./ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-01T02:33:26Z",
+          "created_by": "COPY --chown=nonroot:nonroot /home/gradle/extracted/dependencies/ ./ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-01T02:33:26Z",
+          "created_by": "COPY --chown=nonroot:nonroot /home/gradle/extracted/spring-boot-loader/ ./ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-01T02:33:26Z",
+          "created_by": "COPY --chown=nonroot:nonroot /home/gradle/extracted/snapshot-dependencies/ ./ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-01T02:33:27Z",
+          "created_by": "COPY --chown=nonroot:nonroot /home/gradle/extracted/application/ ./ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-01T02:33:27Z",
+          "created_by": "ENV JAVA_TOOL_OPTIONS=-XX:+UseContainerSupport     -XX:MaxRAMPercentage=75.0     -XX:+UseG1GC     -XX:+OptimizeStringConcat     -XX:+UseStringDeduplication     -Djava.security.egd=file:/dev/./urandom SERVER_PORT=8080",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-01T02:33:27Z",
+          "created_by": "EXPOSE map[8080/tcp:{}]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-01T02:33:27Z",
+          "created_by": "HEALTHCHECK \u0026{[\"CMD\" \"/usr/bin/wget\" \"--no-verbose\" \"--tries=1\" \"--spider\" \"http://localhost:8080/health\"] \"30s\" \"5s\" \"1m0s\" \"0s\" '\\x03'}",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-01T02:33:27Z",
+          "created_by": "USER nonroot:nonroot",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-01T02:33:27Z",
+          "created_by": "ENTRYPOINT [\"java\" \"org.springframework.boot.loader.launch.JarLauncher\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:cb95e3dcecd574e60c6aa1f2f7e26b9e2f9fc786a59783f86f04c2c98394a14d",
+          "sha256:621c35e751a51a9a9dc3e80aa0b7fe8be2a93402ea6ccd307d30852cd7776cda",
+          "sha256:191cb2c9f7f9e2f9167285e3087a059d56eeb5d7e98b49c93f3bd8fc5db1fc50",
+          "sha256:275a30dd8ce958b21daa9ad962c6fbc09f98306ee2f486b65c9075dc257b1412",
+          "sha256:4d049f83d9cf21d1f5cc0e11deaf36df02790d0e60c1a3829538fb4b61685368",
+          "sha256:af5aa97ebe6ce1604747ec1e21af7136ded391bcabe4acef882e718a87c86bcc",
+          "sha256:6f1cdceb6a3146f0ccb986521156bef8a422cdbb0863396f7f751f575ba308f4",
+          "sha256:bbb6cacb8c82e4da4e8143e03351e939eab5e21ce0ef333c42e637af86c5217b",
+          "sha256:2a92d6ac9e4fcc274d5168b217ca4458a9fec6f094ead68d99c77073f08caac1",
+          "sha256:1a73b54f556b477f0a8b939d13c504a3b4f4db71f7a09c63afbc10acb3de5849",
+          "sha256:1189545faf8d95156d42009bf2a738ba17c032ef7ae46704b69ceae564d08f4f",
+          "sha256:7cb7cc2bb262dccb2d0d074a9db047d3a1d39f7ea26d43dcb8541308761a66cd",
+          "sha256:28c0ac2bbd107e4451553fd4834cfd2f10115ce2204c8ae35b2c005e97921c9d",
+          "sha256:e4ba966d7f0527dfe0fcb559e4e18d4da42c4e6beae924719255e0dedb554ed0",
+          "sha256:ed866e58bebf5b90b1db471f4eff229d62dd0682a8b3abb727776c425e93f0b6",
+          "sha256:c52f8682a9775fcdba3d65e96488179866f11a3ec488c71098e1692c940c0846",
+          "sha256:809b4ebb74e64bb61759245f1880debc77dfa16f58f62e2dea0bda2fb4bf5585",
+          "sha256:0cd351bd16de499bf614cf9e35cd1b64e61272119b38dbc95e5eae87163c1f7e",
+          "sha256:a2195e8a560e78570f0ab99b60ee87df454da67fd8d44b49769d007b2a294d92",
+          "sha256:49bdf8e65c465162a9c999342a8e7f6e5ec4a1bfd10d3962474f3df3d7bdd763",
+          "sha256:d729025149d33e1372a0056f6a791f963d4508abe5fa430109194e31052f291f",
+          "sha256:38253f8df53ddff4e80c63ab44f5f224500b27ff2094bef5a22b191f364b9565",
+          "sha256:05d736472d09f08a3b66814899514fdac48489e2f77f07de6f0b88461f8815f4",
+          "sha256:6db791322bfcbc72dc54aa46d012ef46a2314819ec9cc28904e9091b4b94e63e",
+          "sha256:6e18ad80f3d64a8cbbcd1ff2e8a0d5ce7282cf664e816b86183a59d30a618e8a",
+          "sha256:c16b2ec4b1493bad1b1de23d659c899e60abb166bda756d02792f0a03ba54a43",
+          "sha256:3516ab0ce3925bbc217faf3aa71cc17c189a01c1d8a89894f200a83a79d815e0",
+          "sha256:7db505d90756626f425c6c5468eca565c82f589b144ecaa4f411ad9bbf79e614",
+          "sha256:94aa570c4d189052bca501ffb393cd03a20c7bf8d3e1fa3915cc77fcca1715a8",
+          "sha256:953871f68b73a0c29f9268de527a33d56fb21e904f9b3b9a52281ead677a015a",
+          "sha256:2813b375aacaaee16508130f8c37794ede62520bbb0bb44c95a0de5d13f29ded",
+          "sha256:b5383cbbabba5630c2eecc556d38fcbc8cc48d60161f85be16df341c097421f3",
+          "sha256:35630b82cf196bc379c43d09081ef4146a63ecc9788c4a5d800d80efc37fa197",
+          "sha256:1623a04db06f296def32c27e8f12f7319a2e47872da51a8a0a4bfccc729de2a2",
+          "sha256:e49cde37f438587851412974dc90c90329f86e856ec486e4e53c1b1e4e6ad0ea",
+          "sha256:8587adb50fba4b7f8abc60e20ece5e8eb64e22baa3b9a0a69b280f87e474fa31",
+          "sha256:263f2a10095daeb985c1de8ecd025a80a2bbf91fbb0dd6c0ddaed065c1dcb95e",
+          "sha256:bb57a1af34f42c79addf8237b3fb87ddcf84a83426919d94b5a325a60d280ac0"
+        ]
+      },
+      "config": {
+        "Healthcheck": {
+          "Test": [
+            "CMD",
+            "/usr/bin/wget",
+            "--no-verbose",
+            "--tries=1",
+            "--spider",
+            "http://localhost:8080/health"
+          ],
+          "Interval": 30000000000,
+          "Timeout": 5000000000,
+          "StartPeriod": 60000000000,
+          "Retries": 3
+        },
+        "Entrypoint": [
+          "java",
+          "org.springframework.boot.loader.launch.JarLauncher"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "LANG=C.UTF-8",
+          "JAVA_VERSION=21.0.9",
+          "JAVA_TOOL_OPTIONS=-XX:+UseContainerSupport     -XX:MaxRAMPercentage=75.0     -XX:+UseG1GC     -XX:+OptimizeStringConcat     -XX:+UseStringDeduplication     -Djava.security.egd=file:/dev/./urandom",
+          "SERVER_PORT=8080"
+        ],
+        "Labels": {
+          "org.opencontainers.image.authors": "Contest Participant",
+          "org.opencontainers.image.base.name": "gcr.io/distroless/java21-debian12:nonroot",
+          "org.opencontainers.image.created": "2025-11-01T00:00:00Z",
+          "org.opencontainers.image.description": "HMCTS Spring Boot Template Application - Contest Optimized",
+          "org.opencontainers.image.licenses": "MIT",
+          "org.opencontainers.image.source": "https://github.com/hmcts/spring-boot-template",
+          "org.opencontainers.image.title": "Spring Boot Template",
+          "org.opencontainers.image.vendor": "HMCTS",
+          "org.opencontainers.image.version": "0.0.1"
+        },
+        "User": "nonroot:nonroot",
+        "WorkingDir": "/opt/app"
+      }
+    }
+  },
+  "Results": [
+    {
+      "Target": "app:contest (debian 13.1)",
+      "Class": "os-pkgs",
+      "Type": "debian"
+    },
+    {
+      "Target": "Java",
+      "Class": "lang-pkgs",
+      "Type": "jar",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-55752",
+          "PkgName": "org.apache.tomcat.embed:tomcat-embed-core",
+          "PkgPath": "opt/app/BOOT-INF/lib/tomcat-embed-core-10.1.44.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@10.1.44",
+            "UID": "29f96b6ac33b5198"
+          },
+          "InstalledVersion": "10.1.44",
+          "FixedVersion": "11.0.11, 10.1.45, 9.0.109",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:e49cde37f438587851412974dc90c90329f86e856ec486e4e53c1b1e4e6ad0ea"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-55752",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "tomcat: org.apache.tomcat/tomcat-catalina: Apache Tomcat: Directory traversal via rewrite with possible RCE",
+          "Description": "Relative Path Traversal vulnerability in Apache Tomcat.\n\nThe fix for bug 60013 introduced a regression where the       rewritten URL was normalized before it was decoded. This introduced the       possibility that, for rewrite rules that rewrite query parameters to the       URL, an attacker could manipulate the request URI to bypass security       constraints including the protection for /WEB-INF/ and /META-INF/. If PUT requests were also enabled then malicious files could be uploaded leading to remote code execution. PUT requests are normally limited to trusted users and it is considered unlikely that PUT requests would be enabled in conjunction with a rewrite that manipulated the URI.\n\n\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.10, from 10.1.0-M1 through 10.1.44, from 9.0.0.M11 through 9.0.108.\n\nThe following versions were EOL at the time the CVE was created but are \nknown to be affected: 8.5.6 though 8.5.100. Other, older, EOL versions may also be affected.\nUsers are recommended to upgrade to version 11.0.11 or later, 10.1.45 or later or 9.0.109 or later, which fix the issue.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-23"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-55752",
+            "https://github.com/apache/tomcat",
+            "https://github.com/apache/tomcat/commit/130d36d8492ef9e4eb22952c17c92423cb35fd06",
+            "https://github.com/apache/tomcat/commit/b5042622b8b78340ae65403c55dcb9c7416924df",
+            "https://github.com/apache/tomcat/commit/fec06c610ed7466b401e29cc567a58aee5ed826a",
+            "https://lists.apache.org/thread/n05kjcwyj1s45ovs8ll1qrrojhfb1tog",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-55752",
+            "https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.45",
+            "https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.11",
+            "https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.109",
+            "https://www.cve.org/CVERecord?id=CVE-2025-55752"
+          ],
+          "PublishedDate": "2025-10-27T18:15:42.283Z",
+          "LastModifiedDate": "2025-10-30T15:05:50.613Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-41249",
+          "PkgName": "org.springframework:spring-core",
+          "PkgPath": "opt/app/BOOT-INF/lib/spring-core-6.2.10.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.springframework/spring-core@6.2.10",
+            "UID": "43242dd1d61b99ac"
+          },
+          "InstalledVersion": "6.2.10",
+          "FixedVersion": "6.2.11",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:e49cde37f438587851412974dc90c90329f86e856ec486e4e53c1b1e4e6ad0ea"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-41249",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.springframework/spring-core: Spring Framework Annotation Detection Vulnerability",
+          "Description": "The Spring Framework annotation detection mechanism may not correctly resolve annotations on methods within type hierarchies with a parameterized super type with unbounded generics. This can be an issue if such annotations are used for authorization decisions.\n\nYour application may be affected by this if you are using Spring Security's @EnableMethodSecurity feature.\n\nYou are not affected by this if you are not using @EnableMethodSecurity or if you do not use security annotations on methods in generic superclasses or generic interfaces.\n\nThis CVE is published in conjunction with  CVE-2025-41248 https://spring.io/security/cve-2025-41248 .",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-285"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-41249",
+            "https://github.com/spring-projects/spring-framework",
+            "https://github.com/spring-projects/spring-framework/commit/6d710d482a6785b069e35022e81758953afc21ff",
+            "https://github.com/spring-projects/spring-framework/issues/35342",
+            "https://github.com/spring-projects/spring-framework/releases/tag/v6.2.11",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-41249",
+            "https://spring.io/security/cve-2025-41249",
+            "https://www.cve.org/CVERecord?id=CVE-2025-41249"
+          ],
+          "PublishedDate": "2025-09-16T11:15:30.887Z",
+          "LastModifiedDate": "2025-09-16T20:15:35.127Z"
+        }
+      ]
+    }
+  ]
+}
