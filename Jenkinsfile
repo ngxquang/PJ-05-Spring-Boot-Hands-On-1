@@ -30,26 +30,28 @@ pipeline {
         stage('Unit Test') {
             steps {
                 echo 'Running unit tests...'
+                sh 'chmod +x gradlew'
                 sh './gradlew clean test --no-daemon'
             }
-            post {
-                always {
-                    junit '**/build/test-results/test/*.xml'
-                    publishHTML([
-                        allowMissing: false,
-                        alwaysLinkToLastBuild: true,
-                        keepAll: true,
-                        reportDir: 'build/reports/tests/test',
-                        reportFiles: 'index.html',
-                        reportName: 'Unit Test Report'
-                    ])
-                }
-            }
+            // post {
+            //     always {
+            //         junit '**/build/test-results/test/*.xml'
+            //         publishHTML([
+            //             allowMissing: false,
+            //             alwaysLinkToLastBuild: true,
+            //             keepAll: true,
+            //             reportDir: 'build/reports/tests/test',
+            //             reportFiles: 'index.html',
+            //             reportName: 'Unit Test Report'
+            //         ])
+            //     }
+            // }
         }
 
         stage('Build') {
             steps {
                 echo 'Building the project...'
+                sh 'chmod +x gradlew'
                 sh './gradlew clean bootJar --no-daemon'
             }
         }
