@@ -5,6 +5,7 @@ pipeline {
         REGISTRY = 'docker.io/ngxquang12'
         DOCKER_IMAGE = 'spring-boot-template'
         APP_PORT = '8080'
+        IMAGE_TAG = 'latest'
         CONTAINER_NAME = 'spring-boot-app'
 
         DOCKER_CREDENTIALS_ID = 'dockerhub-creds'
