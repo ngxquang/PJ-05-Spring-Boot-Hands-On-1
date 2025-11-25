@@ -85,10 +85,6 @@ The template contains the following plugins:
       ./gradlew dependencyUpdates -Drevision=release
     ```
 
-## Setup
-
-Located in `./bin/init.sh`. Simply run and follow the explanation how to execute it.
-
 ## Building and deploying the application
 
 ### Building the application
