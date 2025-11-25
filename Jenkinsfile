@@ -33,19 +33,6 @@ pipeline {
                 sh 'chmod +x gradlew'
                 sh './gradlew clean test --no-daemon'
             }
-            // post {
-            //     always {
-            //         junit '**/build/test-results/test/*.xml'
-            //         publishHTML([
-            //             allowMissing: false,
-            //             alwaysLinkToLastBuild: true,
-            //             keepAll: true,
-            //             reportDir: 'build/reports/tests/test',
-            //             reportFiles: 'index.html',
-            //             reportName: 'Unit Test Report'
-            //         ])
-            //     }
-            // }
         }
 
         stage('Build') {
