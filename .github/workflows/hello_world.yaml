@@ -18,6 +18,7 @@ jobs:
               run: echo "Hello world 2"
               shell: bash
     goodbye:
+        needs: hello
         runs-on: ubuntu-latest
         steps:
             - name: goodbye world
