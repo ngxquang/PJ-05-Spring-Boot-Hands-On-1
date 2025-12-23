@@ -23,3 +23,8 @@ bin/main/application.yaml
 
 applicationinsights-agent-*.jar
 *.log
+
+/image_inspect
+/image_inspect_2
+
+inspect.tar
