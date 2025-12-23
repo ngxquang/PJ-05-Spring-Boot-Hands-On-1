@@ -2,7 +2,7 @@ name: Create a comment on new issues
 
 on:
   issues:
-    type: [open]
+    type: [opened]
 
 jobs:
   comment-with-action:
@@ -11,3 +11,11 @@ jobs:
       - name: "dump github context"
         run: echo '${{ toJSON(github.event) }}' | jq
         shell: bash
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: ${{ toJSON(github.event) }}
+          body: |
+            This is a multi-line test comment
+            - With Github **Markdown** : sparkles:
+            - Created by [create-or-update-comment][1]
