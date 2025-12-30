@@ -23,7 +23,7 @@ jobs:
 
             - name: Run candidate container
               run: |
-                ssh -i ~/.ssh/id_ed255129 \
+                ssh -i ~/.ssh/id_ed25519 \
                     ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
                         set -e
 
@@ -42,4 +42,47 @@ jobs:
                           $IMAGE
                 EOF
             
-            
+            # - name: Healthcheck candidate
+            #   run: |
+            #     ssh -i ~/.ssh/id_ed25519 \
+            #         ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+            #             echo "Waiting for app to be healthy..."
+
+            #             for i in {1..10}; do
+            #                 if curl -fs http://localhost:8081/actuator/health > /dev/null; then
+            #                     echo "Healthcheck passed"
+            #                     exit 0;
+            #                 fi
+            #                 echo "Retry $i..."
+            #                 sleep 3
+            #             done
+
+            #             echo "Healthcheck failed"
+            #             exit 1
+            #     EOF
+
+            # - name: Promote candidate to current
+            #   run: |
+            #     ssh -i ~/.ssh/id_ed25519 \
+            #         ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+            #             echo "Stopping current container"
+            #             docker rm -f app-current || true
+
+            #             echo "Promoting candidate to current"
+            #             docker rename app-candidate app-current
+
+            #             echo "Restarting current on port 8080"
+            #             docker run -d \
+            #                 --name app-current
+            #                 -p 8080:8080 \
+            #                 $(docker inspect --format='{{.Config.Image}}' app-current)
+            #     EOF
+
+            # - name: Rollback on failure
+            #   if: failure()
+            #   run: |
+            #     ssh -i ~/.ssh/id_ed25519 \
+            #         ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+            #             echo "Rollback triggered"
+            #             docker rm -f app-candidate || true
+            #     EOF
