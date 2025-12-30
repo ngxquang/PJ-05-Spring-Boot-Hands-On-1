@@ -16,6 +16,8 @@ jobs:
 
         permissions:
             contents: read
+            checks: write
+            pull-requests: write
         
         env:
           IMAGE_NAME: spring-boot-template
@@ -30,6 +32,9 @@ jobs:
               with: 
                 distribution: temurin
                 java-version: 21
+
+            - name: Make Gradle Executable
+              run: chmod +x gradlew
             
             - name: Cache gradle
               uses: actions/cache@v4
@@ -58,7 +63,7 @@ jobs:
                 password: ${{ secrets.DOCKERHUB_TOKEN }}
 
             - name: Build and push Docker image
-              uses: docker/build-push-action@v5
+              uses: docker/build-push-action@v6
               with:
                 context: .
                 push: true
